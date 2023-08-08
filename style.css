@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: rgb(244, 217, 184) !important;
+  }
+  
+  .converter {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .converter {
+    margin-bottom: 10px;
+  }
+  
+  input[type="number"], select {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  #inputValue, #outputValue {
+    width: 200px;
+  }
+  
+  .converter select {
+    width: 220px;
+  }
+  
+  .converter input[type="number"]:focus, .converter select:focus {
+    outline: none;
+    border-color: #4CAF50;
+    box-shadow: 0 0 8px #4CAF50;
+  }
+  
+  .converter::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .converter div {
+    float: left;
+    margin-right: 10px;
+  }
+  
+  .converter label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .converter select {
+    margin-top: 5px;
+  }
+  
+  .converter input[type="number"], .converter select {
+    width: 150px;
+  }
+  
+  .converter button {
+    margin-top: 10px;
+  }
+  
+  

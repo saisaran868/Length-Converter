@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Length Converter</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>Length Converter</h1>
+
+  <div class="converter">
+    <input type="number" id="inputValue" placeholder="Enter value">
+    <select id="inputUnit">
+      <option value="cm">Centimeter (cm)</option>
+      <option value="m">Meter (m)</option>
+      <option value="km">Kilometer (km)</option>
+    </select>
+  </div>
+
+  <div class="converter">
+    <input type="number" id="outputValue" placeholder="Converted value" disabled>
+    <select id="outputUnit">
+      <option value="cm">Centimeter (cm)</option>
+      <option value="m">Meter (m)</option>
+      <option value="km">Kilometer (km)</option>
+    </select>
+  </div>
+
+  <button onclick="convertLength()">Convert</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
